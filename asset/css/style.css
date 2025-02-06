@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.color-box {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.color-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.color-options button {
+  width: 100%;
+  height: 80px; /* Larger buttons for better visibility */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-options button:hover {
+  transform: scale(1.05);
+}
+
+.instructions {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.status {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.score {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.new-game-button,
+.restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.new-game-button {
+  background-color: #007bff;
+}
+
+.new-game-button:hover {
+  background-color: #0056b3;
+}
+
+.restart-button {
+  background-color: #dc3545;
+}
+
+.restart-button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .color-box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .color-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

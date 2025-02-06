@@ -1,6 +1,6 @@
 # Color Guessing Game
 
-Welcome to the **Color Guessing Game**! This is a fun and interactive web-based game built using **HTML**, **CSS**, and **Vanilla JavaScript**. The goal of the game is to guess the correct color displayed in the target box from a set of color options. Test your color recognition skills and see how high you can score!
+Welcome to the **Color Guessing Game**! This is a fun and interactive web-based game built using **HTML**, **CSS**, and **Vanilla JavaScript** as part of **HNG Internship Stage 1** task. The goal of the game is to guess the correct color displayed in the target box from a set of color options. Test your color recognition skills and see how high you can score!
 
 ---
 

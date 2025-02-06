@@ -31,6 +31,11 @@ function initGame() {
   targetColor = colors[Math.floor(Math.random() * colors.length)];
   colorBox.style.backgroundColor = targetColor;
 
+  // Fade out the background color after 2 seconds
+  setTimeout(() => {
+    colorBox.style.backgroundColor = "transparent"; // Fade out to transparent
+  }, 1500); // 1.5 seconds delay
+
   // Generate color options
   colorOptions.innerHTML = "";
   const shuffledColors = shuffleArray([...colors]).slice(0, 6);

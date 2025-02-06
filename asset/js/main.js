@@ -63,7 +63,7 @@ function handleGuess(selectedColor) {
   } else {
     gameStatus.textContent = "Wrong! Try again. 😢";
     gameStatus.style.color = "red";
-    score -= 2; // Decrease score by 1 for wrong guess
+    score -= 2; // Decrease score by 2 for wrong guess
   }
 
   // Update score display

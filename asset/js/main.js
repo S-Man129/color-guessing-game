@@ -32,9 +32,9 @@ function initGame() {
   colorBox.style.backgroundColor = targetColor;
 
   // Fade out the background color after 2 seconds
-  setTimeout(() => {
-    colorBox.style.backgroundColor = "transparent"; // Fade out to transparent
-  }, 1500); // 1.5 seconds delay
+  // setTimeout(() => {
+  //   colorBox.style.backgroundColor = "transparent"; // Fade out to transparent
+  // }, 1500); // 1.5 seconds delay
 
   // Generate color options
   colorOptions.innerHTML = "";
